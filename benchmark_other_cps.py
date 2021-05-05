@@ -28,14 +28,15 @@ all_datasets = [
 ]
 NUM_PROCESSES = min(cpu_count()-1, len(all_datasets))
 
-def runBenchmark(datasets):
+def runBenchmark(dataset):
+    baseFolder = f"results/{benchmarkName}/{dataset}"
     suite = BenchmarkSuite(timeout=60*60*3,
-                           save_folder=f"results/{benchmarkName}/saved_classifiers",
-                           output_folder=f"results/{benchmarkName}/generated_trees",
-                           benchmark_file=f"results/{benchmarkName}",
+                           save_folder=f"{baseFolder}/saved_classifiers",
+                           output_folder=f"{baseFolder}/generated_trees",
+                           benchmark_file=baseFolder,
                            rerun=False)
 
-    suite.add_datasets(['controllers'], include=datasets)
+    suite.add_datasets(['controllers'], include=[dataset])
 
     aa = AxisAlignedSplittingStrategy()
     lin_logreg = LinearClassifierSplittingStrategy(LogisticRegression, solver='lbfgs', penalty='none')
