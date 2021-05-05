@@ -22,7 +22,10 @@ suite = BenchmarkSuite(timeout=None,
                        benchmark_file=f"results/{benchmarkName}",
                        rerun=False)
 
-suite.add_datasets(['controllers'], include=['cruise_250', 'cruise_300'])
+suite.add_datasets(['controllers'], include=[
+    'cruise_250',
+    #'cruise_300',
+])
 
 aa = AxisAlignedSplittingStrategy()
 lin_logreg = LinearClassifierSplittingStrategy(LogisticRegression, solver='lbfgs', penalty='none')
@@ -40,6 +43,12 @@ classifiers = [
     DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
     DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
     DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
+    DecisionTree([aa, poly],        entropy,    'poly'),
+
+    DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
+    DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
+    DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
+    DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
     DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
 ]
 suite.benchmark(classifiers)
