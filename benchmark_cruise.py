@@ -26,7 +26,7 @@ suite.add_datasets(['controllers'], include=['cruise_250', 'cruise_300'])
 
 aa = AxisAlignedSplittingStrategy()
 lin_logreg = LinearClassifierSplittingStrategy(LogisticRegression, solver='lbfgs', penalty='none')
-lin_svm = LinearClassifierSplittingStrategy(LinearSVC, max_iter=5000)
+lin_svm = LinearClassifierSplittingStrategy(LinearSVC, max_iter=5000, dual=False)
 lin_oc1 = OC1SplittingStrategy()
 
 poly = PolynomialClassifierSplittingStrategy(prettify=True)
