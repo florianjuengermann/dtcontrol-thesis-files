@@ -24,7 +24,7 @@ suite = BenchmarkSuite(timeout=None,
 
 suite.add_datasets(['controllers'], include=[
     'cruise_250',
-    #'cruise_300',
+    'cruise_300',
 ])
 
 aa = AxisAlignedSplittingStrategy()
