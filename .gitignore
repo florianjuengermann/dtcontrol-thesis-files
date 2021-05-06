@@ -1,1 +1,4 @@
+.dtcontrol_tmp
 **/.benchmark_suite/**
+controllers/*.dump
+controllers/*.scs

@@ -15,7 +15,8 @@ from dtcontrol.decision_tree.splitting.polynomial import PolynomialClassifierSpl
 from dtcontrol.decision_tree.splitting.linear_classifier import LinearClassifierSplittingStrategy
 from dtcontrol.decision_tree.splitting.oc1 import OC1SplittingStrategy
 
-
+# for performance reasons, we run the datasets in parallel
+# this means every dataset will have its own results folder
 benchmarkName = "cps"
 all_datasets = [
     '10rooms',
@@ -23,7 +24,7 @@ all_datasets = [
     'cartpole',
     'dcdc',
     'helicopter',
-    'trafic_30m',
+    'traffic_30m',
     'truck_trailer',
 ]
 NUM_PROCESSES = min(cpu_count()-1, len(all_datasets))
@@ -45,6 +46,8 @@ def runBenchmark(dataset):
 
     poly = PolynomialClassifierSplittingStrategy(prettify=True)
     poly.priority = 0.1
+    polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=True)
+    poly.priority = 1.0
 
     entropy = Entropy(determinizer=LabelPowersetDeterminizer())
     minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
@@ -55,21 +58,23 @@ def runBenchmark(dataset):
         DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
         DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
         DecisionTree([aa, poly],        entropy,    'poly'),
+        DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
 
         DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
         DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
         DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
         DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
         DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
+        DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
     ]
     suite.benchmark(classifiers)
     # suite.display_html()
 
 
 
-
+print(f"Running benchmark with {NUM_PROCESSES} processes..")
 with Pool(processes=NUM_PROCESSES) as p:
-    p.map(runBenchmark, [[dataset] for dataset in all_datasets])
+    p.map(runBenchmark, [dataset for dataset in all_datasets])
     print("+-----------------------------------------------------------+")
     print("|                   ALL BENCHMARKS FINISHED                 |")
     print("+-----------------------------------------------------------+")
