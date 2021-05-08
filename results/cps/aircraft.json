@@ -1,0 +1,74 @@
+{
+  "aircraft": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 915877,
+          "inner nodes": 457938,
+          "paths": 457939,
+          "bandwidth": 19
+        },
+        "time": "00:55:52.233"
+      },
+      "lin-logreg": "timeout",
+      "lin-svm": {
+        "stats": {
+          "nodes": 916685,
+          "inner nodes": 458342,
+          "paths": 458343,
+          "bandwidth": 19
+        },
+        "time": "00:58:13.269"
+      },
+      "lin-oc1": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          58.0110497238,
+          -0.0523598776,
+          0.0
+        ],
+        "max_outer": [
+          82.9419889503,
+          0.0,
+          56.0
+        ],
+        "min_inner": [
+          58.011051177978516,
+          -0.05235987901687622,
+          0.3353293538093567
+        ],
+        "max_inner": [
+          82.8729248046875,
+          -0.0007933300803415477,
+          57.00598907470703
+        ],
+        "step_size": [
+          0.0690607735,
+          0.0007933315,
+          0.1676646707
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          32000.0
+        ],
+        "step_size": [
+          32000.0,
+          0.0196349541
+        ],
+        "num_rows": 2135056,
+        "num_flattened": 4270112
+      }
+    }
+  }
+}

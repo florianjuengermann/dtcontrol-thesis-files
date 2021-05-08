@@ -1,0 +1,73 @@
+{
+  "truck_trailer": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 338283,
+          "inner nodes": 169141,
+          "paths": 169142,
+          "bandwidth": 18
+        },
+        "time": "00:38:07.089"
+      },
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          0.0,
+          -0.5,
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "max_outer": [
+          10.0,
+          0.3,
+          10.0,
+          0.3,
+          10.0
+        ],
+        "min_inner": [
+          0.25,
+          -0.4000000059604645,
+          0.25,
+          -0.4000000059604645,
+          0.25
+        ],
+        "max_inner": [
+          9.75,
+          0.20000000298023224,
+          9.75,
+          0.20000000298023224,
+          9.75
+        ],
+        "step_size": [
+          0.25,
+          0.1,
+          0.25,
+          0.1,
+          0.25
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          2.0
+        ],
+        "step_size": [
+          0.05
+        ],
+        "num_rows": 1386211,
+        "num_flattened": 56834651
+      }
+    }
+  }
+}

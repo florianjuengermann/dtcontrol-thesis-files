@@ -1,0 +1,209 @@
+{
+  "10rooms": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 17297,
+          "inner nodes": 8648,
+          "paths": 8649,
+          "bandwidth": 14
+        },
+        "time": "00:00:13.491"
+      },
+      "lin-logreg": {
+        "stats": {
+          "nodes": 147,
+          "inner nodes": 73,
+          "paths": 74,
+          "bandwidth": 7
+        },
+        "time": "00:01:41.081"
+      },
+      "lin-svm": {
+        "stats": {
+          "nodes": 157,
+          "inner nodes": 78,
+          "paths": 79,
+          "bandwidth": 7
+        },
+        "time": "00:00:14.511"
+      },
+      "lin-oc1": {
+        "stats": {
+          "nodes": 4515,
+          "inner nodes": 2257,
+          "paths": 2258,
+          "bandwidth": 12
+        },
+        "time": "00:13:01.228"
+      },
+      "poly": {
+        "stats": {
+          "nodes": 61,
+          "inner nodes": 30,
+          "paths": 31,
+          "bandwidth": 5
+        },
+        "time": "00:09:35.173"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 61,
+          "inner nodes": 30,
+          "paths": 31,
+          "bandwidth": 5
+        },
+        "time": "00:09:38.862"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 17297,
+          "inner nodes": 8648,
+          "paths": 8649,
+          "bandwidth": 14
+        },
+        "time": "00:00:18.041"
+      },
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 107,
+          "inner nodes": 53,
+          "paths": 54,
+          "bandwidth": 6
+        },
+        "time": "00:03:44.482"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 121,
+          "inner nodes": 60,
+          "paths": 61,
+          "bandwidth": 6
+        },
+        "time": "00:00:29.596"
+      },
+      "lin-oc1-minEntropy": {
+        "stats": {
+          "nodes": 7455,
+          "inner nodes": 3727,
+          "paths": 3728,
+          "bandwidth": 12
+        },
+        "time": "00:12:46.294"
+      },
+      "poly-minEntropy": {
+        "stats": {
+          "nodes": 49,
+          "inner nodes": 24,
+          "paths": 25,
+          "bandwidth": 5
+        },
+        "time": "00:10:57.839"
+      },
+      "polyPrio1-minEntropy": {
+        "stats": {
+          "nodes": 49,
+          "inner nodes": 24,
+          "paths": 25,
+          "bandwidth": 5
+        },
+        "time": "00:12:18.302"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75
+        ],
+        "max_outer": [
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25
+        ],
+        "min_inner": [
+          18.75,
+          20.0,
+          18.75,
+          18.75,
+          20.0,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75
+        ],
+        "max_inner": [
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25
+        ],
+        "step_size": [
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ],
+        "variables": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10"
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          1.0
+        ],
+        "step_size": [
+          0.5,
+          0.5
+        ],
+        "num_rows": 26244,
+        "num_flattened": 52488
+      }
+    }
+  }
+}

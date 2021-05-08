@@ -1,0 +1,74 @@
+{
+  "dcdc": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 271,
+          "inner nodes": 135,
+          "paths": 136,
+          "bandwidth": 8
+        },
+        "time": "00:02:53.336"
+      },
+      "lin-logreg": {
+        "stats": {
+          "nodes": 139,
+          "inner nodes": 69,
+          "paths": 70,
+          "bandwidth": 7
+        },
+        "time": "00:03:07.827"
+      },
+      "lin-svm": {
+        "stats": {
+          "nodes": 279,
+          "inner nodes": 139,
+          "paths": 140,
+          "bandwidth": 8
+        },
+        "time": "00:03:10.788"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          1.1505,
+          5.4505
+        ],
+        "max_outer": [
+          1.55,
+          5.8495
+        ],
+        "min_inner": [
+          1.1505000591278076,
+          5.450500011444092
+        ],
+        "max_inner": [
+          1.5494999885559082,
+          5.8495001792907715
+        ],
+        "step_size": [
+          0.0005,
+          0.0005
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0"
+        ],
+        "min": [
+          1.0
+        ],
+        "max": [
+          2.0
+        ],
+        "step_size": [
+          1.0
+        ],
+        "num_rows": 593089,
+        "num_flattened": 1186178
+      }
+    }
+  }
+}
