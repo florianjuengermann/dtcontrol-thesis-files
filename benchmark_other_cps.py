@@ -47,7 +47,7 @@ def runBenchmark(dataset):
     poly = PolynomialClassifierSplittingStrategy(prettify=True)
     poly.priority = 0.1
     polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=True)
-    poly.priority = 1.0
+    polyPrio1.priority = 1.0
 
     entropy = Entropy(determinizer=LabelPowersetDeterminizer())
     minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
