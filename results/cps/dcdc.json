@@ -27,6 +27,87 @@
           "bandwidth": 8
         },
         "time": "00:03:10.788"
+      },
+      "lin-oc1": {
+        "stats": {
+          "nodes": 179,
+          "inner nodes": 89,
+          "paths": 90,
+          "bandwidth": 7
+        },
+        "time": "00:11:22.057"
+      },
+      "poly": {
+        "stats": {
+          "nodes": 171,
+          "inner nodes": 85,
+          "paths": 86,
+          "bandwidth": 7
+        },
+        "time": "00:03:38.534"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 171,
+          "inner nodes": 85,
+          "paths": 86,
+          "bandwidth": 7
+        },
+        "time": "00:03:25.541"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 265,
+          "inner nodes": 132,
+          "paths": 133,
+          "bandwidth": 8
+        },
+        "time": "00:01:32.108"
+      },
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 173,
+          "inner nodes": 86,
+          "paths": 87,
+          "bandwidth": 7
+        },
+        "time": "00:02:03.074"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 265,
+          "inner nodes": 132,
+          "paths": 133,
+          "bandwidth": 8
+        },
+        "time": "00:01:42.039"
+      },
+      "lin-oc1-minEntropy": {
+        "stats": {
+          "nodes": 179,
+          "inner nodes": 89,
+          "paths": 90,
+          "bandwidth": 7
+        },
+        "time": "00:19:57.513"
+      },
+      "poly-minEntropy": {
+        "stats": {
+          "nodes": 185,
+          "inner nodes": 92,
+          "paths": 93,
+          "bandwidth": 7
+        },
+        "time": "00:04:44.773"
+      },
+      "polyPrio1-minEntropy": {
+        "stats": {
+          "nodes": 185,
+          "inner nodes": 92,
+          "paths": 93,
+          "bandwidth": 7
+        },
+        "time": "00:04:41.183"
       }
     },
     "metadata": {

@@ -1,0 +1,340 @@
+{
+  "cruise_250": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 869,
+          "inner nodes": 434,
+          "paths": 435,
+          "bandwidth": 9
+        },
+        "time": "00:00:28.136"
+      },
+      "lin-logreg": {
+        "stats": {
+          "nodes": 557,
+          "inner nodes": 278,
+          "paths": 279,
+          "bandwidth": 9
+        },
+        "time": "00:00:56.365"
+      },
+      "lin-svm": {
+        "stats": {
+          "nodes": 721,
+          "inner nodes": 360,
+          "paths": 361,
+          "bandwidth": 9
+        },
+        "time": "00:00:30.095"
+      },
+      "lin-oc1": {
+        "stats": {
+          "nodes": 369,
+          "inner nodes": 184,
+          "paths": 185,
+          "bandwidth": 8
+        },
+        "time": "00:03:22.802"
+      },
+      "poly-minEntropy": {
+        "stats": {
+          "nodes": 11,
+          "inner nodes": 5,
+          "paths": 6,
+          "bandwidth": 3
+        },
+        "time": "00:01:17.824"
+      },
+      "poly": {
+        "stats": {
+          "nodes": 353,
+          "inner nodes": 176,
+          "paths": 177,
+          "bandwidth": 8
+        },
+        "time": "00:02:16.396"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 1067,
+          "inner nodes": 533,
+          "paths": 534,
+          "bandwidth": 10
+        },
+        "time": "00:00:23.769"
+      },
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 657,
+          "inner nodes": 328,
+          "paths": 329,
+          "bandwidth": 9
+        },
+        "time": "00:01:32.776"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 817,
+          "inner nodes": 408,
+          "paths": 409,
+          "bandwidth": 9
+        },
+        "time": "00:00:47.397"
+      },
+      "lin-oc1-minEntropy": {
+        "stats": {
+          "nodes": 363,
+          "inner nodes": 181,
+          "paths": 182,
+          "bandwidth": 8
+        },
+        "time": "00:04:34.462"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          0.0,
+          1.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "min_outer": [
+          0.0,
+          1.0,
+          6.0,
+          -6.0,
+          -2.0,
+          -6.0,
+          -2.0
+        ],
+        "max_inner": [
+          0.0,
+          1.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          0.0,
+          1.0,
+          276.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 320523,
+        "num_flattened": 961569
+      }
+    }
+  },
+  "cruise_300": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 1157,
+          "inner nodes": 578,
+          "paths": 579,
+          "bandwidth": 10
+        },
+        "time": "00:00:47.058"
+      },
+      "lin-logreg": {
+        "stats": {
+          "nodes": 691,
+          "inner nodes": 345,
+          "paths": 346,
+          "bandwidth": 9
+        },
+        "time": "00:01:44.120"
+      },
+      "lin-svm": {
+        "stats": {
+          "nodes": 991,
+          "inner nodes": 495,
+          "paths": 496,
+          "bandwidth": 9
+        },
+        "time": "00:01:12.913"
+      },
+      "lin-oc1": {
+        "stats": {
+          "nodes": 467,
+          "inner nodes": 233,
+          "paths": 234,
+          "bandwidth": 8
+        },
+        "time": "00:06:48.055"
+      },
+      "poly": {
+        "stats": {
+          "nodes": 521,
+          "inner nodes": 260,
+          "paths": 261,
+          "bandwidth": 9
+        },
+        "time": "00:03:52.961"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 1343,
+          "inner nodes": 671,
+          "paths": 672,
+          "bandwidth": 10
+        },
+        "time": "00:00:43.005"
+      },
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 881,
+          "inner nodes": 440,
+          "paths": 441,
+          "bandwidth": 9
+        },
+        "time": "00:02:13.627"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 1035,
+          "inner nodes": 517,
+          "paths": 518,
+          "bandwidth": 10
+        },
+        "time": "00:01:35.363"
+      },
+      "lin-oc1-minEntropy": {
+        "stats": {
+          "nodes": 507,
+          "inner nodes": 253,
+          "paths": 254,
+          "bandwidth": 8
+        },
+        "time": "00:21:26.145"
+      },
+      "poly-minEntropy": {
+        "stats": {
+          "nodes": 13,
+          "inner nodes": 6,
+          "paths": 7,
+          "bandwidth": 3
+        },
+        "time": "00:05:25.212"
+      }
+    },
+    "metadata": {
+      "X_metadata": {
+        "variables": [
+          "eChoose",
+          "fChoose",
+          "d",
+          "vE",
+          "aE",
+          "vF",
+          "aF"
+        ],
+        "categorical": [],
+        "min_inner": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "min_outer": [
+          1.0,
+          0.0,
+          6.0,
+          -10.0,
+          -2.0,
+          -10.0,
+          -2.0
+        ],
+        "max_inner": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "max_outer": [
+          1.0,
+          0.0,
+          330.0,
+          20.0,
+          2.0,
+          20.0,
+          2.0
+        ],
+        "step_size": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "accelerationEgo"
+        ],
+        "min": [
+          -2
+        ],
+        "max": [
+          2
+        ],
+        "step_size": [
+          2
+        ],
+        "num_rows": 500920,
+        "num_flattened": 1502760
+      }
+    }
+  }
+}

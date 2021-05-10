@@ -11,7 +11,8 @@
         "time": "00:38:07.089"
       },
       "lin-logreg": "timeout",
-      "lin-svm": "timeout"
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout"
     },
     "metadata": {
       "X_metadata": {

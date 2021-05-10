@@ -34,6 +34,8 @@ lin_oc1 = OC1SplittingStrategy()
 
 poly = PolynomialClassifierSplittingStrategy(prettify=True)
 poly.priority = 0.1
+polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=True)
+poly.priority = 1.0
 
 entropy = Entropy(determinizer=LabelPowersetDeterminizer())
 minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
@@ -44,12 +46,14 @@ classifiers = [
     DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
     DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
     DecisionTree([aa, poly],        entropy,    'poly'),
+    DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
 
     DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
     DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
     DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
     DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
     DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
+    DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
 ]
 suite.benchmark(classifiers)
 #suite.display_html()
