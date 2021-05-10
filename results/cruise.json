@@ -44,16 +44,16 @@
           "paths": 6,
           "bandwidth": 3
         },
-        "time": "00:01:17.824"
+        "time": "00:00:38.610"
       },
       "poly": {
         "stats": {
-          "nodes": 353,
-          "inner nodes": 176,
-          "paths": 177,
+          "nodes": 347,
+          "inner nodes": 173,
+          "paths": 174,
           "bandwidth": 8
         },
-        "time": "00:02:16.396"
+        "time": "00:01:04.979"
       },
       "axis-aligned-minEntropy": {
         "stats": {
@@ -90,6 +90,24 @@
           "bandwidth": 8
         },
         "time": "00:04:34.462"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 37,
+          "inner nodes": 18,
+          "paths": 19,
+          "bandwidth": 5
+        },
+        "time": "00:00:54.403"
+      },
+      "polyPrio1-minEntropy": {
+        "stats": {
+          "nodes": 21,
+          "inner nodes": 10,
+          "paths": 11,
+          "bandwidth": 4
+        },
+        "time": "00:00:43.294"
       }
     },
     "metadata": {
@@ -208,12 +226,12 @@
       },
       "poly": {
         "stats": {
-          "nodes": 521,
-          "inner nodes": 260,
-          "paths": 261,
-          "bandwidth": 9
+          "nodes": 509,
+          "inner nodes": 254,
+          "paths": 255,
+          "bandwidth": 8
         },
-        "time": "00:03:52.961"
+        "time": "00:01:45.302"
       },
       "axis-aligned-minEntropy": {
         "stats": {
@@ -258,7 +276,25 @@
           "paths": 7,
           "bandwidth": 3
         },
-        "time": "00:05:25.212"
+        "time": "00:00:59.855"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 35,
+          "inner nodes": 17,
+          "paths": 18,
+          "bandwidth": 5
+        },
+        "time": "00:01:29.692"
+      },
+      "polyPrio1-minEntropy": {
+        "stats": {
+          "nodes": 19,
+          "inner nodes": 9,
+          "paths": 10,
+          "bandwidth": 4
+        },
+        "time": "00:01:14.077"
       }
     },
     "metadata": {

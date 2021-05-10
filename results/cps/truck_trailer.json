@@ -12,7 +12,9 @@
       },
       "lin-logreg": "timeout",
       "lin-svm": "timeout",
-      "lin-oc1": "timeout"
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout"
     },
     "metadata": {
       "X_metadata": {

@@ -37,16 +37,16 @@ def runBenchmark(dataset):
                            benchmark_file=baseFolder,
                            rerun=False)
 
-    suite.add_datasets(['controllers'], include=[dataset])
+    suite.add_datasets(['controllers_cps'], include=[dataset])
 
     aa = AxisAlignedSplittingStrategy()
     lin_logreg = LinearClassifierSplittingStrategy(LogisticRegression, solver='lbfgs', penalty='none')
     lin_svm = LinearClassifierSplittingStrategy(LinearSVC, max_iter=5000, dual=False)
     lin_oc1 = OC1SplittingStrategy()
 
-    poly = PolynomialClassifierSplittingStrategy(prettify=True)
+    poly = PolynomialClassifierSplittingStrategy(prettify=False)
     poly.priority = 0.1
-    polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=True)
+    polyPrio1 = PolynomialClassifierSplittingStrategy(prettify=False)
     polyPrio1.priority = 1.0
 
     entropy = Entropy(determinizer=LabelPowersetDeterminizer())

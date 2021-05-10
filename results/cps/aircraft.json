@@ -20,7 +20,9 @@
         },
         "time": "00:58:13.269"
       },
-      "lin-oc1": "timeout"
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout"
     },
     "metadata": {
       "X_metadata": {

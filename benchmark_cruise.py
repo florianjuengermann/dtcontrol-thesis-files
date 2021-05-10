@@ -22,7 +22,7 @@ suite = BenchmarkSuite(timeout=None,
                        benchmark_file=f"results/{benchmarkName}",
                        rerun=False)
 
-suite.add_datasets(['controllers'], include=[
+suite.add_datasets(['controllers_cps'], include=[
     'cruise_250',
     'cruise_300',
 ])
