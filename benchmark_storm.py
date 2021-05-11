@@ -16,11 +16,11 @@ from dtcontrol.decision_tree.splitting.oc1 import OC1SplittingStrategy
 
 benchmarkName = "storm"
 
-suite = BenchmarkSuite(timeout=None,
+suite = BenchmarkSuite(timeout=60*60*1,
                        save_folder=f"results/{benchmarkName}/saved_classifiers",
                        output_folder=f"results/{benchmarkName}/generated_trees",
                        benchmark_file=f"results/{benchmarkName}",
-                       rerun=True)
+                       rerun=False)
 
 suite.add_datasets(['controllers_storm'])
 
