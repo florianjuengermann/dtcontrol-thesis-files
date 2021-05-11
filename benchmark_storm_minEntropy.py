@@ -15,7 +15,7 @@ from dtcontrol.decision_tree.splitting.oc1 import OC1SplittingStrategy
 from dtcontrol.decision_tree.splitting.categorical_multi import CategoricalMultiSplittingStrategy
 
 
-benchmarkName = "storm"
+benchmarkName = "storm_minEntropy"
 
 suite = BenchmarkSuite(timeout=60*60*1,
                        save_folder=f"results/{benchmarkName}/saved_classifiers",
@@ -40,13 +40,13 @@ entropy = Entropy(determinizer=LabelPowersetDeterminizer())
 minEntropy = MinLabelEntropy(determinizer=LabelPowersetDeterminizer())
 
 classifiers = [
-    DecisionTree([aa],              entropy,    'axis-aligned'),
-    DecisionTree([aa, cat],         entropy,    'axis-aligned-catg'),
-    DecisionTree([aa, lin_logreg],  entropy,    'lin-logreg'),
-    DecisionTree([aa, lin_svm],     entropy,    'lin-svm'),
-    DecisionTree([aa, lin_oc1],     entropy,    'lin-oc1'),
-    DecisionTree([aa, poly],        entropy,    'poly'),
-    DecisionTree([aa, polyPrio1],   entropy,    'polyPrio1'),
+    DecisionTree([aa],              minEntropy, 'axis-aligned-minEntropy'),
+    DecisionTree([aa, cat],         minEntropy, 'axis-aligned-catg-minEntropy'),
+    DecisionTree([aa, lin_logreg],  minEntropy, 'lin-logreg-minEntropy'),
+    DecisionTree([aa, lin_svm],     minEntropy, 'lin-svm-minEntropy'),
+    DecisionTree([aa, lin_oc1],     minEntropy, 'lin-oc1-minEntropy'),
+    DecisionTree([aa, poly],        minEntropy, 'poly-minEntropy'),
+    DecisionTree([aa, polyPrio1],   minEntropy, 'polyPrio1-minEntropy'),
 ]
 suite.benchmark(classifiers)
 suite.display_html()
