@@ -14,7 +14,9 @@
       "lin-svm": "timeout",
       "lin-oc1": "timeout",
       "poly": "timeout",
-      "polyPrio1": "timeout"
+      "polyPrio1": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {

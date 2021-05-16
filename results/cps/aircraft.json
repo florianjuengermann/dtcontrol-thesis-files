@@ -21,8 +21,34 @@
         "time": "00:58:13.269"
       },
       "lin-oc1": "timeout",
-      "poly": "timeout",
-      "polyPrio1": "timeout"
+      "poly": {
+        "stats": {
+          "nodes": 725011,
+          "inner nodes": 362505,
+          "paths": 362506,
+          "bandwidth": 19
+        },
+        "time": "02:13:27.111"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 602335,
+          "inner nodes": 301167,
+          "paths": 301168,
+          "bandwidth": 19
+        },
+        "time": "02:28:16.231"
+      },
+      "poly-minEntropy": {
+        "stats": {
+          "nodes": 688577,
+          "inner nodes": 344288,
+          "paths": 344289,
+          "bandwidth": 19
+        },
+        "time": "01:56:41.554"
+      },
+      "polyPrio1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {

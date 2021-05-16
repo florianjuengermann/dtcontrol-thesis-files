@@ -31,21 +31,21 @@
       "lin-oc1": "timeout",
       "poly": {
         "stats": {
-          "nodes": 3107,
-          "inner nodes": 1553,
-          "paths": 1554,
-          "bandwidth": 11
+          "nodes": 5035,
+          "inner nodes": 2517,
+          "paths": 2518,
+          "bandwidth": 12
         },
-        "time": "00:32:25.346"
+        "time": "00:20:00.150"
       },
       "polyPrio1": {
         "stats": {
-          "nodes": 3107,
-          "inner nodes": 1553,
-          "paths": 1554,
+          "nodes": 3787,
+          "inner nodes": 1893,
+          "paths": 1894,
           "bandwidth": 11
         },
-        "time": "00:33:02.113"
+        "time": "00:21:56.466"
       },
       "axis-aligned-minEntropy": {
         "stats": {
@@ -55,7 +55,9 @@
           "bandwidth": 13
         },
         "time": "00:02:29.278"
-      }
+      },
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {
