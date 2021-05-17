@@ -17,7 +17,7 @@ from dtcontrol.decision_tree.splitting.categorical_multi import CategoricalMulti
 
 benchmarkName = "storm"
 
-suite = BenchmarkSuite(timeout=60*60*1,
+suite = BenchmarkSuite(timeout=60*60*3,
                        save_folder=f"results/{benchmarkName}/saved_classifiers",
                        output_folder=f"results/{benchmarkName}/generated_trees",
                        benchmark_file=f"results/{benchmarkName}",
