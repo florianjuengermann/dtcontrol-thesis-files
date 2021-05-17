@@ -57,7 +57,26 @@
         "time": "00:02:29.278"
       },
       "poly-minEntropy": "timeout",
-      "polyPrio1-minEntropy": "timeout"
+      "polyPrio1-minEntropy": "timeout",
+      "lin-logreg-minEntropy": {
+        "stats": {
+          "nodes": 4637,
+          "inner nodes": 2318,
+          "paths": 2319,
+          "bandwidth": 12
+        },
+        "time": "01:15:03.940"
+      },
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 9763,
+          "inner nodes": 4881,
+          "paths": 4882,
+          "bandwidth": 13
+        },
+        "time": "00:21:46.025"
+      },
+      "lin-oc1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {

@@ -39,21 +39,21 @@
       },
       "poly": {
         "stats": {
-          "nodes": 185,
-          "inner nodes": 92,
-          "paths": 93,
+          "nodes": 243,
+          "inner nodes": 121,
+          "paths": 122,
           "bandwidth": 7
         },
-        "time": "00:00:02.888"
+        "time": "00:00:00.749"
       },
       "polyPrio1": {
         "stats": {
-          "nodes": 185,
-          "inner nodes": 92,
-          "paths": 93,
+          "nodes": 189,
+          "inner nodes": 94,
+          "paths": 95,
           "bandwidth": 7
         },
-        "time": "00:00:02.821"
+        "time": "00:00:00.461"
       },
       "axis-aligned-minEntropy": {
         "stats": {
@@ -98,7 +98,7 @@
           "paths": 85,
           "bandwidth": 7
         },
-        "time": "00:00:03.507"
+        "time": "00:00:01.946"
       },
       "polyPrio1-minEntropy": {
         "stats": {
@@ -107,7 +107,7 @@
           "paths": 85,
           "bandwidth": 7
         },
-        "time": "00:00:03.345"
+        "time": "00:00:01.891"
       }
     },
     "metadata": {

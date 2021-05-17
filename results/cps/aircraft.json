@@ -48,7 +48,35 @@
         },
         "time": "01:56:41.554"
       },
-      "polyPrio1-minEntropy": "timeout"
+      "polyPrio1-minEntropy": {
+        "stats": {
+          "nodes": 630631,
+          "inner nodes": 315315,
+          "paths": 315316,
+          "bandwidth": 19
+        },
+        "time": "02:01:11.270"
+      },
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 1015903,
+          "inner nodes": 507951,
+          "paths": 507952,
+          "bandwidth": 19
+        },
+        "time": "00:32:49.560"
+      },
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": {
+        "stats": {
+          "nodes": 1013949,
+          "inner nodes": 506974,
+          "paths": 506975,
+          "bandwidth": 19
+        },
+        "time": "00:55:32.052"
+      },
+      "lin-oc1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {

@@ -16,7 +16,19 @@
       "poly": "timeout",
       "polyPrio1": "timeout",
       "poly-minEntropy": "timeout",
-      "polyPrio1-minEntropy": "timeout"
+      "polyPrio1-minEntropy": "timeout",
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 366411,
+          "inner nodes": 183205,
+          "paths": 183206,
+          "bandwidth": 18
+        },
+        "time": "01:18:38.603"
+      },
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout"
     },
     "metadata": {
       "X_metadata": {
