@@ -3361,8 +3361,24 @@
         },
         "time": "00:59:39.357"
       },
-      "poly": "timeout",
-      "polyPrio1": "timeout"
+      "poly": {
+        "stats": {
+          "nodes": 2005,
+          "inner nodes": 1002,
+          "paths": 1003,
+          "bandwidth": 10
+        },
+        "time": "00:53:47.821"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 1431,
+          "inner nodes": 715,
+          "paths": 716,
+          "bandwidth": 10
+        },
+        "time": "01:17:06.728"
+      }
     },
     "metadata": {
       "X_metadata": {
@@ -4530,8 +4546,24 @@
         },
         "time": "00:16:31.512"
       },
-      "poly": "timeout",
-      "polyPrio1": "timeout"
+      "poly": {
+        "stats": {
+          "nodes": 9779,
+          "inner nodes": 4889,
+          "paths": 4890,
+          "bandwidth": 13
+        },
+        "time": "01:09:47.286"
+      },
+      "polyPrio1": {
+        "stats": {
+          "nodes": 2859,
+          "inner nodes": 1429,
+          "paths": 1430,
+          "bandwidth": 11
+        },
+        "time": "01:12:11.562"
+      }
     },
     "metadata": {
       "X_metadata": {
