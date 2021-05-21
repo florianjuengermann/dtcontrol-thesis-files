@@ -3,15 +3,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 1207
+          "nodes": 763
         },
-        "time": "00:01:14.551"
+        "time": "00:00:39.802"
       },
       "BDD_UL0": {
         "stats": {
-          "nodes": 640
+          "nodes": 308
         },
-        "time": "00:00:42.438"
+        "time": "00:00:24.582"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 536
+        },
+        "time": "00:00:43.151"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 339
+        },
+        "time": "00:00:36.194"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 332
+        },
+        "time": "00:00:25.064"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 201
+        },
+        "time": "00:00:30.535"
       }
     },
     "metadata": {
@@ -185,15 +209,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 456
+          "nodes": 461
         },
-        "time": "00:04:14.816"
+        "time": "00:00:05.441"
       },
       "BDD_UL0": {
         "stats": {
-          "nodes": 361
+          "nodes": 312
         },
-        "time": "00:04:06.212"
+        "time": "00:00:02.719"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 444
+        },
+        "time": "00:00:06.058"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 465
+        },
+        "time": "00:00:05.437"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 326
+        },
+        "time": "00:00:02.682"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 345
+        },
+        "time": "00:00:01.992"
       }
     },
     "metadata": {
@@ -247,15 +295,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 1816
+          "nodes": 3342
         },
-        "time": "00:08:24.024"
+        "time": "00:05:55.264"
       },
       "BDD_UL0": {
         "stats": {
+          "nodes": 3349
+        },
+        "time": "00:04:55.012"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 2995
+        },
+        "time": "00:06:11.839"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 3341
+        },
+        "time": "00:06:52.091"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 3458
+        },
+        "time": "00:04:52.941"
+      },
+      "BDD_UL2": {
+        "stats": {
           "nodes": 1820
         },
-        "time": "00:06:27.774"
+        "time": "00:04:43.615"
       }
     },
     "metadata": {
@@ -339,15 +411,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 2239
+          "nodes": 2545
         },
-        "time": "00:11:47.746"
+        "time": "00:07:50.880"
       },
       "BDD_UL0": {
         "stats": {
-          "nodes": 3944
+          "nodes": 2229
         },
-        "time": "00:10:35.369"
+        "time": "00:06:54.927"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 3887
+        },
+        "time": "00:07:40.502"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 2238
+        },
+        "time": "00:08:39.794"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 3896
+        },
+        "time": "00:06:43.617"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 2914
+        },
+        "time": "00:07:31.181"
       }
     },
     "metadata": {
@@ -431,15 +527,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 577
+          "nodes": 576
         },
-        "time": "00:08:04.056"
+        "time": "00:05:43.986"
       },
       "BDD_UL0": {
         "stats": {
           "nodes": 819
         },
-        "time": "00:07:42.311"
+        "time": "00:05:06.903"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 576
+        },
+        "time": "00:05:43.653"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 576
+        },
+        "time": "00:06:08.070"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 764
+        },
+        "time": "00:05:27.959"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 819
+        },
+        "time": "00:04:54.591"
       }
     },
     "metadata": {
@@ -493,15 +613,39 @@
     "classifiers": {
       "BDD_actOR0": {
         "stats": {
-          "nodes": 1348
+          "nodes": 1352
         },
-        "time": "00:12:01.490"
+        "time": "00:08:40.560"
       },
       "BDD_UL0": {
         "stats": {
-          "nodes": 4582
+          "nodes": 3095
         },
-        "time": "00:08:08.101"
+        "time": "00:05:44.049"
+      },
+      "BDD_actOR1": {
+        "stats": {
+          "nodes": 2619
+        },
+        "time": "00:10:08.758"
+      },
+      "BDD_actOR2": {
+        "stats": {
+          "nodes": 3249
+        },
+        "time": "00:08:06.318"
+      },
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 4583
+        },
+        "time": "00:05:31.394"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 5960
+        },
+        "time": "00:05:46.963"
       }
     },
     "metadata": {

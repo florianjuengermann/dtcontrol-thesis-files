@@ -6185,7 +6185,15 @@
         },
         "time": "00:03:23.340"
       },
-      "lin-logreg": "timeout",
+      "lin-logreg": {
+        "stats": {
+          "nodes": 150341,
+          "inner nodes": 75170,
+          "paths": 75171,
+          "bandwidth": 17
+        },
+        "time": "00:32:44.992"
+      },
       "lin-svm": {
         "stats": {
           "nodes": 156165,
@@ -6195,7 +6203,15 @@
         },
         "time": "00:15:43.717"
       },
-      "lin-oc1": "timeout",
+      "lin-oc1": {
+        "stats": {
+          "nodes": 125421,
+          "inner nodes": 62710,
+          "paths": 62711,
+          "bandwidth": 16
+        },
+        "time": "01:59:31.599"
+      },
       "poly": {
         "stats": {
           "nodes": 114979,
