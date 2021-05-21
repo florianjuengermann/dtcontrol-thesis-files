@@ -820,9 +820,23 @@
       "BDD_actOR0": "timeout",
       "BDD_UL0": {
         "stats": {
-          "nodes": 36944
+          "nodes": 36169
         },
-        "time": "00:40:51.770"
+        "time": "00:42:43.041"
+      },
+      "BDD_actOR1": "timeout",
+      "BDD_actOR2": "timeout",
+      "BDD_UL1": {
+        "stats": {
+          "nodes": 76555
+        },
+        "time": "00:48:04.818"
+      },
+      "BDD_UL2": {
+        "stats": {
+          "nodes": 37389
+        },
+        "time": "00:42:28.999"
       }
     },
     "metadata": {
