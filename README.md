@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/366029935.svg)](https://zenodo.org/badge/latestdoi/366029935)
 # dtcontrol Thesis Files
 
 This repository contains files used in the bachelor's thesis _Learning Algebraic Predicates for Explainable Controllers_.
