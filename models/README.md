@@ -5,4 +5,4 @@ You can generate the controller dump with the following steps:
 3. rename the file `<outputFolder>/safe` to `cruise_250.dump`
 4. (optional) create a config file with name `cruise_250_config.json` in the same directory
 
-or just use the generated controllers (in folder `controllers`) after unziping them (`unzip cruise_250.dump.zip`).
+or just use the generated controllers (in folder `controllers_cps`) after unziping them (`unzip cruise_250.dump.zip`).

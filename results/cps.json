@@ -1,0 +1,453 @@
+{
+  "truck_trailer": {
+    "classifiers": {
+      "axis-aligned": {
+        "stats": {
+          "nodes": 338283,
+          "inner nodes": 169141,
+          "paths": 169142,
+          "bandwidth": 18
+        },
+        "time": "00:37:41.704"
+      },
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "axis-aligned-minEntropy": {
+        "stats": {
+          "nodes": 366411,
+          "inner nodes": 183205,
+          "paths": 183206,
+          "bandwidth": 18
+        },
+        "time": "01:49:48.509"
+      },
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          0.0,
+          -0.5,
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "max_outer": [
+          10.0,
+          0.3,
+          10.0,
+          0.3,
+          10.0
+        ],
+        "min_inner": [
+          0.25,
+          -0.4000000059604645,
+          0.25,
+          -0.4000000059604645,
+          0.25
+        ],
+        "max_inner": [
+          9.75,
+          0.20000000298023224,
+          9.75,
+          0.20000000298023224,
+          9.75
+        ],
+        "step_size": [
+          0.25,
+          0.1,
+          0.25,
+          0.1,
+          0.25
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          2.0
+        ],
+        "step_size": [
+          0.05
+        ],
+        "num_rows": 1386211,
+        "num_flattened": 56834651
+      }
+    }
+  },
+  "10rooms": {
+    "classifiers": {
+      "axis-aligned": "timeout",
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout",
+      "axis-aligned-minEntropy": "timeout",
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75
+        ],
+        "max_outer": [
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25
+        ],
+        "min_inner": [
+          18.75,
+          20.0,
+          18.75,
+          18.75,
+          20.0,
+          18.75,
+          18.75,
+          18.75,
+          18.75,
+          18.75
+        ],
+        "max_inner": [
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25,
+          21.25
+        ],
+        "step_size": [
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ],
+        "variables": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10"
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          1.0
+        ],
+        "step_size": [
+          0.5,
+          0.5
+        ],
+        "num_rows": 26244,
+        "num_flattened": 52488
+      }
+    }
+  },
+  "aircraft": {
+    "classifiers": {
+      "axis-aligned": "timeout",
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout",
+      "axis-aligned-minEntropy": "timeout",
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          58.0110497238,
+          -0.0523598776,
+          0.0
+        ],
+        "max_outer": [
+          82.9419889503,
+          0.0,
+          56.0
+        ],
+        "min_inner": [
+          58.011051177978516,
+          -0.05235987901687622,
+          0.3353293538093567
+        ],
+        "max_inner": [
+          82.8729248046875,
+          -0.0007933300803415477,
+          57.00598907470703
+        ],
+        "step_size": [
+          0.0690607735,
+          0.0007933315,
+          0.1676646707
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          32000.0
+        ],
+        "step_size": [
+          32000.0,
+          0.0196349541
+        ],
+        "num_rows": 2135056,
+        "num_flattened": 4270112
+      }
+    }
+  },
+  "cartpole": {
+    "classifiers": {
+      "axis-aligned": "timeout",
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout",
+      "axis-aligned-minEntropy": "timeout",
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          2.24,
+          -2.0
+        ],
+        "max_outer": [
+          4.08,
+          2.0
+        ],
+        "min_inner": [
+          2.4000000953674316,
+          -0.8999999761581421
+        ],
+        "max_inner": [
+          3.8399999141693115,
+          0.8999999761581421
+        ],
+        "step_size": [
+          0.08,
+          0.1
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0"
+        ],
+        "min": [
+          -4.0
+        ],
+        "max": [
+          4.0
+        ],
+        "step_size": [
+          0.1
+        ],
+        "num_rows": 271,
+        "num_flattened": 21951
+      }
+    }
+  },
+  "dcdc": {
+    "classifiers": {
+      "axis-aligned": "timeout",
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout",
+      "axis-aligned-minEntropy": "timeout",
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          1.1505,
+          5.4505
+        ],
+        "max_outer": [
+          1.55,
+          5.8495
+        ],
+        "min_inner": [
+          1.1505000591278076,
+          5.450500011444092
+        ],
+        "max_inner": [
+          1.5494999885559082,
+          5.8495001792907715
+        ],
+        "step_size": [
+          0.0005,
+          0.0005
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0"
+        ],
+        "min": [
+          1.0
+        ],
+        "max": [
+          2.0
+        ],
+        "step_size": [
+          1.0
+        ],
+        "num_rows": 593089,
+        "num_flattened": 1186178
+      }
+    }
+  },
+  "helicopter": {
+    "classifiers": {
+      "axis-aligned": "timeout",
+      "lin-logreg": "timeout",
+      "lin-svm": "timeout",
+      "lin-oc1": "timeout",
+      "poly": "timeout",
+      "polyPrio1": "timeout",
+      "axis-aligned-minEntropy": "timeout",
+      "lin-logreg-minEntropy": "timeout",
+      "lin-svm-minEntropy": "timeout",
+      "lin-oc1-minEntropy": "timeout",
+      "poly-minEntropy": "timeout",
+      "polyPrio1-minEntropy": "timeout"
+    },
+    "metadata": {
+      "X_metadata": {
+        "categorical": [],
+        "min_outer": [
+          -0.1,
+          -1.5,
+          -0.1,
+          -0.4,
+          -1.25,
+          -1.0
+        ],
+        "max_outer": [
+          0.1,
+          1.5,
+          0.1,
+          0.4,
+          1.25,
+          1.0
+        ],
+        "min_inner": [
+          -0.05000000074505806,
+          -1.4500000476837158,
+          -0.05000000074505806,
+          -0.30000001192092896,
+          -1.2000000476837158,
+          -0.25
+        ],
+        "max_inner": [
+          0.05000000074505806,
+          1.4500000476837158,
+          0.05000000074505806,
+          0.20000000298023224,
+          1.2000000476837158,
+          0.25
+        ],
+        "step_size": [
+          0.05,
+          0.05,
+          0.05,
+          0.1,
+          0.05,
+          0.25
+        ]
+      },
+      "Y_metadata": {
+        "variables": [
+          "u_0",
+          "u_1"
+        ],
+        "min": [
+          0.0
+        ],
+        "max": [
+          20.0
+        ],
+        "step_size": [
+          5.0,
+          10.0
+        ],
+        "num_rows": 280539,
+        "num_flattened": 561078
+      }
+    }
+  }
+}

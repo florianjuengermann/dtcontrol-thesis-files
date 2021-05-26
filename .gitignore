@@ -3,4 +3,3 @@
 **/*.dump
 **/*.scs
 **/*.storm.json
-controllers_storm/*_config.json

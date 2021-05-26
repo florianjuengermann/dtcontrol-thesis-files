@@ -1,0 +1,35 @@
+{
+  "x_column_types": {
+    "numeric": [
+    ],
+    "categorical": [
+      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+    ]
+  },
+  "x_column_names": [
+    "_loc_process1",
+    "_loc_process10",
+    "_loc_process2",
+    "_loc_process3",
+    "_loc_process4",
+    "_loc_process5",
+    "_loc_process6",
+    "_loc_process7",
+    "_loc_process8",
+    "_loc_process9",
+    "num_tokens_var",
+    "q1",
+    "q10",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9"
+  ],
+  "x_category_names": {
+  }
+}
+

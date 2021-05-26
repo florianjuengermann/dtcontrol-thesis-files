@@ -15,7 +15,7 @@ from dtcontrol.decision_tree.splitting.oc1 import OC1SplittingStrategy
 from dtcontrol.decision_tree.splitting.categorical_multi import CategoricalMultiSplittingStrategy
 
 
-benchmarkName = "storm_minEntropy"
+benchmarkName = "qv_minEntropy"
 
 suite = BenchmarkSuite(timeout=60*60*3,
                        save_folder=f"results/{benchmarkName}/saved_classifiers",
@@ -23,7 +23,7 @@ suite = BenchmarkSuite(timeout=60*60*3,
                        benchmark_file=f"results/{benchmarkName}",
                        rerun=False)
 
-suite.add_datasets(['controllers_storm'])
+suite.add_datasets(['controllers_qv'])
 
 aa = AxisAlignedSplittingStrategy()
 lin_logreg = LinearClassifierSplittingStrategy(LogisticRegression, solver='lbfgs', penalty='none')

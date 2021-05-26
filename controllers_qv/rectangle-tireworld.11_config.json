@@ -1,0 +1,18 @@
+{
+  "x_column_types": {
+    "numeric": [
+    ],
+    "categorical": [
+      0, 1, 2, 3 
+    ]
+  },
+  "x_column_names": [
+    "_loc_aut",
+    "var0",
+    "var1",
+    "var2"
+  ],
+  "x_category_names": {
+  }
+}
+

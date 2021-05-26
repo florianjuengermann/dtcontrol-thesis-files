@@ -1,0 +1,20 @@
+{
+  "x_column_types": {
+    "numeric": [
+    ],
+    "categorical": [
+      0, 1, 2, 3, 4, 5
+    ]
+  },
+  "x_column_names": [
+    "_loc_phil1",
+    "_loc_phil2",
+    "_loc_phil3",
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "x_category_names": {
+  }
+}
+

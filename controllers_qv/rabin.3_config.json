@@ -1,0 +1,32 @@
+{
+  "x_column_types": {
+    "numeric": [
+    ],
+    "categorical": [
+      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+    ]
+  },
+  "x_column_names": [
+    "K",
+    "_loc_process1",
+    "_loc_process2",
+    "_loc_process3",
+    "b",
+    "b1",
+    "b2",
+    "b3",
+    "c",
+    "draw1",
+    "draw2",
+    "draw3",
+    "p1",
+    "p2",
+    "p3",
+    "r",
+    "r1",
+    "r2",
+    "r3"
+  ],
+  "x_category_names": {
+  }
+}

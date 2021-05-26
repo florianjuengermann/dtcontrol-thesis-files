@@ -1,0 +1,47 @@
+{
+  "x_column_types": {
+    "numeric": [
+      5, 9, 10, 25, 26, 30
+    ],
+    "categorical": [
+      0, 1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28, 29, 31
+    ]
+  },
+  "x_column_names": [
+    "B",
+    "_loc_Battery",
+    "_loc_Process_1",
+    "_loc_Process_2",
+    "_loc_Resources",
+    "battery_load",
+    "boost_1",
+    "boost_multiplicator",
+    "crit",
+    "energyLocal",
+    "energy_capacity",
+    "failure_1",
+    "label_emptyBattery",
+    "label_localFailure",
+    "label_noLocalFailure",
+    "label_process_1_finishes",
+    "label_process_2_finishes",
+    "loc_1",
+    "loc_2",
+    "m_1",
+    "m_2",
+    "ncrit",
+    "none",
+    "process_1",
+    "process_2",
+    "t_1",
+    "t_2",
+    "t_max",
+    "undef",
+    "user_1",
+    "utilityLocal",
+    "wait"
+  ],
+  "x_category_names": {
+  }
+}
+

@@ -1,0 +1,25 @@
+{
+  "x_column_types": {
+    "numeric": [
+      5, 6, 7, 8, 9
+    ],
+    "categorical": [
+      0, 1, 2, 3, 4
+    ]
+  },
+  "x_column_names": [
+    "_loc_process0",
+    "_loc_process1",
+    "_loc_process2",
+    "_loc_process3",
+    "_loc_process4",
+    "p0",
+    "p1",
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "x_category_names": {
+  }
+}
+

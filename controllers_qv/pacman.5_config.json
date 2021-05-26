@@ -1,0 +1,34 @@
+{
+  "x_column_types": {
+    "numeric": [
+      1, 6, 7, 10, 11, 12, 14, 15, 16, 18
+    ],
+    "categorical": [
+      0, 2, 3, 4, 5, 8, 9, 13, 17
+    ]
+  },
+  "x_column_names": [
+    "Crash",
+    "MAXSTEPS",
+    "_loc_arbiter",
+    "_loc_ghost0",
+    "_loc_ghost1",
+    "_loc_pacman",
+    "dG0",
+    "dG1",
+    "dP",
+    "pMove",
+    "steps",
+    "xG0",
+    "xG1",
+    "xP",
+    "xSize",
+    "yG0",
+    "yG1",
+    "yP",
+    "ySize"
+  ],
+  "x_category_names": {
+  }
+}
+
