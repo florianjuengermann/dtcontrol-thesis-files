@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/366029935.svg)](https://zenodo.org/badge/latestdoi/366029935)
 # dtcontrol Thesis Files
 
-This repository contains files used in the bachelor's thesis _Learning Algebraic Predicates for Explainable Controllers_.
+This repository contains files used in the bachelor's thesis [Learning Algebraic Predicates for Explainable Controllers](https://mediatum.ub.tum.de/1612766).
 Most importantly, the root directory contains 5 benchmark files that can be used to reproduce the tables and charts from Chapter 7.
 
 
